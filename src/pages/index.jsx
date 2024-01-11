@@ -1,7 +1,7 @@
 // pages/index.js
 import React from 'react';
 import Image from 'next/image';
-import Button from '../components/button'; 
+import Button from "../components/Button"; 
 import styles from '../styles/Home.module.css';
 import buttonStyles from '../styles/Button.module.css';
 import Link from 'next/link';

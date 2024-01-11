@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Button from "../components/button";
+import Button from "../components/Button";
 import { useRouter } from "next/router";
 import styles from "../styles/Login.module.css";
 import Link from "next/link";
