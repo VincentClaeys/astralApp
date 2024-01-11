@@ -1,0 +1,9 @@
+:root{
+    --darkPurple:#423c63;
+    --lightDarkPurple:#7176A2;
+    --lightPurple:#A5A8CA;
+    --extraLightPurple:#D9DBEA;
+    
+    --border:.1rem solid rgba(0,0,0,.2);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+}

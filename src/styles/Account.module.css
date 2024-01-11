@@ -1,0 +1,84 @@
+.homeHeading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--lightDarkPurple);
+    font: 900 1rem "futura", sans-serif;
+
+  }
+  .accountContainer{
+    width: 90%;
+    margin-left: 5%;
+  }
+  .buttonGrid {
+    background-color: white;
+  
+    margin-top: 15px;
+    margin-right: 15px;
+    border: none;
+  }
+  .buttonGrid:hover {
+    cursor: pointer;
+  }
+  .title {
+    color: var(--lightDarkPurple);
+    font: 900 2.5rem "futura", sans-serif;
+    margin-bottom: -25px;
+  }
+  .firstLetter {
+    color: var(--darkPurple);
+    font-weight: 900;
+  }
+
+  .sloganQuestion {
+    color: var(--darkPurple);
+    font: 500 0.7rem "futura", sans-serif;
+    margin-top: 25px;
+    margin-left: 5px;
+  }
+
+  .updateProfileContainer {
+    margin-top:10%;
+
+  }
+  .updateProfileContainer input{
+    height: 20px;
+    width: 90%;
+    border-radius: 9px 9px 0px 0px;
+    border: 0.5px solid var(--lightPurple);
+    padding: 10px;
+    font: 500 0.6rem "futura", sans-serif;
+  }
+  .startFormTitleAccount  {
+    color: var(--darkPurple);
+    font: 600 1rem "futura", sans-serif;
+    margin-bottom: 20px;
+  }
+
+  .accountnameTitle {
+    color: var(--darkPurple);
+    font: 500 0.6rem "futura", sans-serif;
+    margin-bottom: 10px;
+  }
+
+
+  .inputContainer form select{
+    height: 40px;
+    border-radius: 9px 9px 0px 0px;
+    border: 0.5px solid var(--lightPurple);
+    font: 500 0.6rem "futura", sans-serif;
+    color: grey;
+    background-color: white;
+  }
+  .accountButton {
+    background-color: var(--darkPurple);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font: 500 1rem "futura", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 96%;
+  }
+  

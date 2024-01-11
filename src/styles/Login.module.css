@@ -1,0 +1,181 @@
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-right: 5%;
+
+
+  
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+
+
+}
+.image {
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+.imageRegister {
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.title {
+  color: var(--lightDarkPurple);
+  font: 900 2.5rem "futura", sans-serif;
+  margin-bottom: -25px;
+}
+.firstLetter {
+  color: var(--darkPurple);
+  font-weight: 900;
+}
+
+.sloganLogin {
+  color: var(--darkPurple);
+  font: 500 1rem "futura", sans-serif;
+  margin-bottom: 10%;
+}
+
+.textLogin {
+    color: var(--lightDarkPurple);
+    font: 500 0.6rem "futura", sans-serif;
+    margin-bottom: 5%;
+  
+  }
+
+.textRegister {
+    color: var(--lightDarkPurple);
+    font: 500 0.6rem "futura", sans-serif;
+    
+  }
+
+
+.inputUsername {
+height: 40px;
+border-radius: 9px 9px 0px 0px;
+border : 0.5px solid var(--lightPurple);
+}
+
+.inputUsername::placeholder {
+  color: var(--lightPurple);
+  font: 500 0.6rem "futura", sans-serif;
+  padding-left: 10px;
+  font-weight: bold;
+}
+.inputPassword {
+height: 40px;
+border-radius: 0px 0px 9px 9px;
+border : 0.5px solid var(--lightPurple);
+
+}
+
+.inputPassword::placeholder {
+  color: var(--lightPurple);
+  font: 500 0.6rem "futura", sans-serif;
+  padding-left: 10px;
+  font-weight: bold;
+}
+.inputEmail {
+height: 40px;
+border-radius: 0px;
+border : 0.5px solid var(--lightPurple);
+
+}
+.inputCertificate {
+height: 40px;
+border-radius: 0px;
+
+
+}
+
+.inputCertificate::file-selector-button {
+  border: 2px solid var(--lightPurple);
+  padding: 0.2em 0.4em;
+  border-radius: 0.2em;
+  background-color: var(--lightPurple);
+  transition: 1s;
+  color: white;
+ }
+
+
+.inputEmail::placeholder {
+  color: var(--lightPurple);
+  font: 500 0.6rem "futura", sans-serif;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.sloganRegister {
+    color: var(--darkPurple);
+    font: 500 1rem "futura", sans-serif;
+    margin-bottom: 5%;
+  }
+
+
+
+.buttonLogin {
+    background-color: var(--darkPurple);
+    color: white;
+    width: 100%;
+    font: 900 0.8rem 'Roboto', sans-serif;
+    height: 50px;
+    border-radius: 9px;
+    border: 2px solid var(--darkPurple);
+    margin-top: 10%;
+}
+.buttonUpload {
+    background-color: var(--lightDarkPurple);
+    color: white;
+    width: 40%;
+    font: 700 0.5rem 'Roboto', sans-serif;
+    height: 30px;
+    border-radius: 9px;
+    border: 2px solid var(--lightDarkPurple);
+    margin-bottom: 5%;
+
+}
+.textSuccess {
+  color: green;
+  font: 500 0.8rem "futura", sans-serif;
+
+
+}
+.textRegisterHere {
+    color: var(--darkPurple);
+    font: 500 0.6rem "futura", sans-serif;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+  .textRegisterCertificate {
+    color: var(--lightDarkPurple);
+    font: 500 0.6rem "futura", sans-serif;
+    margin-bottom: 10%;
+  }
+
+.textRegisterMediums {
+  color: var(--darkPurple);
+  font: 900 1.5rem "futura", sans-serif;
+  margin-bottom: 0%;
+
+}
+.textRegisterAsMedium {
+  color: var(--darkPurple);
+  font: 500 0.6rem "futura", sans-serif;
+display: flex;
+justify-content: left;
+margin-top: 5%;
+
+
+  text-align: center;
+}
+
+.certificateContainer {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
