@@ -17,7 +17,7 @@ const Register = () => {
  
      
     async function registerUser(email, password, fullName, username) {
-      const response = await fetch('http://astralaura.ddev.site/api', {
+      const response = await fetch('https://astralaura.ddev.site/api', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
