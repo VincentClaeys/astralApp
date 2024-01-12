@@ -40,7 +40,7 @@ export default function Account() {
       
         let bodyContent = JSON.stringify(gqlBody);
       
-        let response = await fetch("http://astralaura.ddev.site/api", {
+        let response = await fetch("https://astralaura.ddev.site/api", {
           method: "POST",
           body: bodyContent,
           headers: headersList,

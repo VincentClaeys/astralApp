@@ -48,7 +48,7 @@ const Answer = ({ userId }) => {
     };
 
     let bodyContent = JSON.stringify(gqlBody);
-    fetch("http://astralaura.ddev.site/api", {
+    fetch("https://astralaura.ddev.site/api", {
       method: "POST",
       body: bodyContent,
       headers: headersList,
@@ -97,7 +97,7 @@ const Answer = ({ userId }) => {
 
     let bodyContentIds = JSON.stringify(gqlBodyIds);
 
-    let responseIds = await fetch("http://astralaura.ddev.site/api", {
+    let responseIds = await fetch("https://astralaura.ddev.site/api", {
       method: "POST",
       body: bodyContentIds,
       headers: headersList,
@@ -173,7 +173,7 @@ const Answer = ({ userId }) => {
 
     let bodyContent = JSON.stringify(gqlBody);
 
-    let response = await fetch("http://astralaura.ddev.site/api", {
+    let response = await fetch("https://astralaura.ddev.site/api", {
       method: "POST",
       body: bodyContent,
       headers: headersListQuestion,
@@ -244,7 +244,7 @@ const Answer = ({ userId }) => {
 
     let bodyContent2 = JSON.stringify(gqlBody2);
 
-    let response2 = await fetch("http://astralaura.ddev.site/api", {
+    let response2 = await fetch("https://astralaura.ddev.site/api", {
       method: "POST",
       body: bodyContent2,
       headers: headersListAnswer,

@@ -18,7 +18,7 @@ const Login = () => {
     const [password, setPassword] = useState('');
     
     async function loginUser(email, password) {
-      const response = await fetch('http://astralaura.ddev.site/api', {
+      const response = await fetch('https://astralaura.ddev.site/api', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

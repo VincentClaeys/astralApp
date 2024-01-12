@@ -19,7 +19,7 @@ const RegisterMediums = () => {
 
 
   async function registerUser(email, password, fullName, username) {
-    const response = await fetch("http://astralaura.ddev.site/api", {
+    const response = await fetch("https://astralaura.ddev.site/api", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -134,7 +134,7 @@ const RegisterMediums = () => {
 
     let bodyContentIds = JSON.stringify(gqlBody);
 
-    let responseIds = await fetch("http://astralaura.ddev.site/api", {
+    let responseIds = await fetch("https://astralaura.ddev.site/api", {
       method: "POST",
       body: bodyContentIds,
       headers: headersList,

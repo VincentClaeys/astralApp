@@ -39,7 +39,7 @@ export default function Home() {
 
       let bodyContent = JSON.stringify(gqlBody);
 
-      fetch("http://astralaura.ddev.site/api", {
+      fetch("https://astralaura.ddev.site/api", {
         method: "POST",
         body: bodyContent,
         headers: headersList,
@@ -113,7 +113,7 @@ console.log(tomorrow);
 
     let bodyContent = JSON.stringify(gqlBody);
 
-    let response = await fetch("http://astralaura.ddev.site/api", {
+    let response = await fetch("https://astralaura.ddev.site/api", {
       method: "POST",
       body: bodyContent,
       headers: headersListQuestion,
